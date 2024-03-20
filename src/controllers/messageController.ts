@@ -36,6 +36,8 @@ export const webHookMessages = (req: Request, res: Response) => {
     res.sendStatus(200);
 };
 
+
+
 //enviar mensagem para o usuario
 const msgToUser = async (msgTxt: String) => {
     let textFromUser: String = msgTxt.toUpperCase()
